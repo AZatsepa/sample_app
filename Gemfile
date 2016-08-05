@@ -48,14 +48,14 @@
 source 'https://rubygems.org'
 ruby '2.2.2'
 #ruby-gemset=railstutorial_rails_4_0
-
+gem 'pg', '0.15.1'
 gem 'rails', '4.2.3'
 gem 'test-unit'
 # gem 'sprockets-rails',  '~> 2.0.0'
 
 group :development, :test do
-  gem 'sqlite3', '1.3.11'
-  gem 'rspec-rails', '2.13.1'
+  # gem 'rspec-rails', '2.13.1'
+  gem 'rspec-rails', '~> 3.4.2'
 end
 
 group :test do
@@ -75,6 +75,6 @@ group :doc do
 end
 
 group :production do
-  gem 'pg', '0.15.1'
+  # gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
 end
