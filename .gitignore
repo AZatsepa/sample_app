@@ -17,3 +17,11 @@ secrets.yml
 /log/*
 !/log/.keep
 /tmp
+# Игнорирование прочих ненужных файлов.
+doc/
+*.swp
+*~
+.project
+.DS_Store
+.idea
+bundler_stubs/
