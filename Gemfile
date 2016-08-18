@@ -9,6 +9,7 @@ gem 'pg', '0.15.1'
 gem 'rails', '4.2.3'
 gem 'test-unit'
 gem 'sprockets-rails', '~> 3.1', '>= 3.1.1'
+gem 'multi_json', '1.12.1'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.4.2'
@@ -34,5 +35,5 @@ end
 
 group :production do
   gem 'rails_12factor', '0.0.2'
-  gem 'uglifier', '~> 2.7'
+  # gem 'uglifier', '~> 2.7'
 end

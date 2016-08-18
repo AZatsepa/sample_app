@@ -193,6 +193,7 @@ DEPENDENCIES
   coffee-rails (= 4.0.1)
   jbuilder (= 1.0.2)
   jquery-rails (= 3.0.4)
+  multi_json (= 1.12.1)
   pg (= 0.15.1)
   rails (= 4.2.3)
   rails_12factor (= 0.0.2)
@@ -205,6 +206,9 @@ DEPENDENCIES
   therubyracer (~> 0.12.2)
   turbolinks (~> 2.3.0)
   uglifier (~> 2.7)
+
+RUBY VERSION
+   ruby 2.2.2p95
 
 BUNDLED WITH
    1.12.5
