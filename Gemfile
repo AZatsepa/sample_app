@@ -1,7 +1,3 @@
-# source 'https://rubygems.org'
-
-
-
 source 'https://rubygems.org'
 ruby '2.2.2'
 #ruby-gemset=railstutorial_rails_4_0
@@ -35,5 +31,4 @@ end
 
 group :production do
   gem 'rails_12factor', '0.0.2'
-  # gem 'uglifier', '~> 2.7'
 end
